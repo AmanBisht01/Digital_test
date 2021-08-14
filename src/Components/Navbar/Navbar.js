@@ -43,27 +43,27 @@ function Navbarheader() {
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a href="/" className="nav-link pl-0">
+              <a Link to="/" className="nav-link pl-0">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a href="/about" className="nav-link">
+              <a Link to="/about" className="nav-link">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a href="/courses" className="nav-link">
+              <a Link to="/courses" className="nav-link">
                 Courses
               </a>
             </li>
             <li className="nav-item">
-              <a href="/staff" className="nav-link">
+              <a Link to="/staff" className="nav-link">
                 Team
               </a>
             </li>
             <li className="nav-item">
-              <a href="/contact" className="nav-link">
+              <a Link to="/contact" className="nav-link">
                 Contact
               </a>
             </li>

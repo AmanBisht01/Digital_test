@@ -18,24 +18,11 @@ function App() {
       <Navtop />
       <Navbarheader />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/courses">
-          <Courses />
-        </Route>
-        <Route path="/staff">
-          <Staff />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/blog">
-          <Blog />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/courses" component={Courses} />
+        <Route path="/staff" component={Staff} />
+        <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </>
