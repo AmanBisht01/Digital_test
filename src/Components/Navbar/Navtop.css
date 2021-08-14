@@ -1,0 +1,45 @@
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 38px;
+  padding: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.topper {
+  font-size: 15px;
+  width: 100%;
+  display: block;
+}
+.navbar-brand span {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 31%;
+}
+
+.topper .icon span {
+  color: #fd5f00;
+  font-size: 20px;
+}
+.topper .text {
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 15px;
+}
+.topper .text span:first-child {
+  font-weight: 700;
+  color: #000;
+}
+
+.topper .text span {
+  width: 100%;
+  display: block;
+}
+.btn.btn-primary {
+  background: #fd5f00;
+  border: 1px solid #fd5f00;
+  color: #fff;
+}

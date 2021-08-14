@@ -1,0 +1,118 @@
+.staff {
+  overflow: hidden;
+  margin-bottom: 30px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .img-wrap {
+  height: 400px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.staff .img {
+  width: 100%;
+  display: block;
+  background-position: top center;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.staff .text h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.staff .text .position {
+  text-transform: uppercase;
+  color: #b3b3b3;
+  color: #fd5f00;
+  display: block;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.staff .text .faded {
+  opacity: 1;
+}
+
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+.staff .ftco-social li a {
+  color: #fd5f00;
+}
+.staff .ftco-social {
+  position: absolute;
+  top: 21em;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background: transparent;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ftco-social {
+  padding: 0;
+}
+.ftco-section {
+  padding: 3em 0;
+  position: relative;
+}
+.staff:hover .ftco-social,
+.staff:focus .ftco-social {
+  opacity: 1;
+  top: 21em;
+}
+
+.staff:hover .img,
+.staff:focus .img {
+  margin-top: -10px;
+}
+.staff:hover .text h3,
+.staff:focus .text h3 {
+  color: #fd5f00;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: x-large;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}

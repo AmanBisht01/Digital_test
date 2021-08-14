@@ -1,0 +1,57 @@
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.bg-light {
+  background: #fafafa !important;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 275px;
+  position: relative;
+  display: block;
+}
+.blog-entry .meta-date {
+  display: inline-block;
+  background: #5d50c6;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.p-2 {
+  padding: 0.5rem !important;
+}
+.blog-entry .meta-date .day {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.blog-entry .meta-date span {
+  display: block;
+  color: #fff;
+}
+.blog-entry .meta-date .mos,
+.blog-entry .meta-date .yr {
+  font-size: 13px;
+}
+
+.blog-entry .text .heading {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.blog-entry .text .heading a {
+  color: #000000;
+}
