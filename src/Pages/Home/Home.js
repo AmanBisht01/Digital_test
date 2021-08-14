@@ -11,7 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 const Home = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <section>
@@ -30,11 +30,7 @@ const Home = () => {
       <div data-aos="fade-right">
         <Courseshome />
       </div>
-      <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="5000"
-      >
+      <div data-aos="flip-left" data-aos-easing="ease-out-cubic">
         <Ourteam />
       </div>
       {/* <div data-aos="fade-down">
