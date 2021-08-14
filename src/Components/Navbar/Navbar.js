@@ -2,6 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import Imgsrc from "../../Shared/Imgsrc";
+import { Link } from "react-router-dom";
+
 import { FaSearch } from "react-icons/fa";
 
 function Navbarheader() {
@@ -43,29 +45,29 @@ function Navbarheader() {
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a Link to="/" className="nav-link pl-0">
+              <Link to="/" className="nav-link pl-0">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a Link to="/about" className="nav-link">
+              <Link to="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a Link to="/courses" className="nav-link">
+              <Link to="/courses" className="nav-link">
                 Courses
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a Link to="/staff" className="nav-link">
+              <Link to="/staff" className="nav-link">
                 Team
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
